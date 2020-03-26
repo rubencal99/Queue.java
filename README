@@ -1,0 +1,15 @@
+// Name: Ruben Calderon
+// CruzID: rucalder
+// Class: 12B/M
+// Date: May 17, 2019
+// Description: Table of contents for project.
+// File name: README
+
+1. README - Table of contents for project
+2. Simulation.java - Reads integers from an input file, parses them into Jobs, and queues the jobs into a queue array that calculates wait/finish times of each individual job.
+3. QueueInterface.java - Interface for Queue.java that contains core methods.
+4. QueueEmptyException.java - Throws QueueEmptyException when attempting to call methods on an empty queue.
+5. Queue.java - Implements core functions of QueueInterface.java; a linked list of objects.
+6. QueueTest.java - Tests all methods of Queue.java individually and how they interact together.
+7. Job.java - An object class that holds arrival, duration, and finish times as integers.
+8. Makefile - Compiles and archives Simulation.java into executable JAR file.
